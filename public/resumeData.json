@@ -1,8 +1,8 @@
 {
   "main": {
-    "name": "Sree Charan Shatdarsanam",
+    "name": "",
     "occupation": "Graduate Student studying Information Sciences",
-    "description": "I am a Graduate Student studying Information Sciences based in Tucson. #wannaGoFullStack Developer, experienced Salesforce.com Developer & Consultant.",
+    "description": " #wannaGoFullStack Engineer, Salesforce.com Developer & Consultant",
     "image": "DPs-Sree.png",
     "bio": "Hey! Call me Sree, I'm a Salesforce consultant turned aspiring Full Stack developer. I am currently building two full-stack hobbyist projects. Please check them in my Works",
     "contactmessage": "Get in touch with me to receive further details or just have a conversation on ReactJS or anything else :)",
@@ -54,8 +54,7 @@
         "graduated": "December 2020",
         "description": {
           "gpa": "3.7",
-          "position1": "Graduate Assistant at Marketing Dept",
-          "position2": "Member of Tableau User Group Steering Committee"
+          "positions": "Graduate Assistant at Marketing Department | Member of Tableau User Group Steering Committee"
         }
       }
     ],
@@ -125,7 +124,7 @@
       {
         "title": "MERN Stack Amazon Clone WIP",
         "category": "Amazon Clone built with MERN (Firebase, ReactJS, NodeJS)",
-        "image": "https://1000logos.net/wp-content/uploads/2019/07/Amazon-logo-2000%E2%80%93present.jpg",
+        "image": "../images/amazon-logo-transparent.png",
         "url": "https://github.com/sreechu/amazon-clone-repo"
       }
     ]
