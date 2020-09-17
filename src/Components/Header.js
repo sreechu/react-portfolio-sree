@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import Typist from "react-typist";
 
 class Header extends Component {
   render() {
@@ -68,6 +69,13 @@ class Header extends Component {
               I'm a <span>{city}</span> based <span>{occupation}</span>. I am
               also a <span>{description}</span>.
             </h3>
+
+            <hr />
+            <Typist>
+              I like to Solve Problems and Be Creative about it 💻
+            </Typist>
+            <hr />
+            <hr />
             <hr />
             <ul className="social">{networks}</ul>
           </div>
