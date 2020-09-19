@@ -70,18 +70,18 @@ class Header extends Component {
               I'm a <span>{city}</span> based <span>{occupation}</span>. I am
               also a <span>{description}</span>.
             </h3>
-
-            <hr />
-            <Typist>
-              I like to Solve Problems and Be Creative about it 💻
-            </Typist>
-            <hr />
-            <hr />
+            <br />
             <img
               className="profile-pic"
               src={profilepic}
               alt="Sreecharan profile pic"
             />
+
+            <hr />
+            <Typist>
+              I like to Solve Problems and Be Creative about it 💻
+            </Typist>
+
             <hr />
             <ul className="social">{networks}</ul>
           </div>
