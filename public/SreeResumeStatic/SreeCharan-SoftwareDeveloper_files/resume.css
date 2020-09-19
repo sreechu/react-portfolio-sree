@@ -1,0 +1,71 @@
+body {
+  color: #000a17;
+}
+.container {
+  padding-bottom: 5rem;
+}
+
+p {
+  padding: 0;
+  margin: 0;
+}
+
+h1 {
+  font-size: 5.1rem;
+  color: #000a17;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+h5 {
+  font-weight: 700;
+}
+
+h6 {
+  font-size: 0.875rem;
+  color: #999;
+}
+
+.bold-heading {
+  font-weight: 700;
+}
+
+.med-bold {
+  font-weight: 500;
+  color: #999;
+}
+
+.blue {
+  color: #2d669a;
+}
+
+.job {
+  padding-bottom: 2rem;
+}
+
+.job:first-of-type {
+  padding-top: 2rem;
+}
+
+.address-block,
+.address-block a {
+  color: #999;
+  font-size: 1rem;
+}
+
+.email-link:hover {
+  color: #2d669a;
+  text-decoration: none;
+  font-weight: 700;
+
+  -webkit-transition: all 0.1s ease-in-out;
+  -moz-transition: all 0.1s ease-in-out;
+  -o-transition: all 0.1s ease-in-out;
+  transition: all 0.1s ease-in-out;
+}
+
+.skills p {
+  font-size: 0.95rem;
+}

@@ -3,7 +3,8 @@
     "name": "",
     "occupation": "Graduate Student studying Information Sciences",
     "description": " #wannaGoFullStack Engineer, Salesforce.com Developer & Consultant",
-    "image": "DPs-Sree.png",
+    "image": "DPSree.png",
+    "aboutMe": "sree_about.jpg",
     "bio": "Hey! Call me Sree, I'm a Salesforce consultant turned aspiring Full Stack developer. I am currently building two full-stack hobbyist projects. Please check them in my Works",
     "contactmessage": "Get in touch with me to receive further details or just have a conversation on ReactJS or anything else :)",
     "email": "srees@email.arizona.edu",
@@ -15,7 +16,7 @@
       "zip": "USA 85719"
     },
     "website": "WIP",
-    "resumedownload": "./Resume.html",
+    "resumedownload": "../../SreeResumeStatic/SreeCharan-SoftwareDeveloper.html",
     "social": [
       {
         "name": "facebook",
@@ -118,22 +119,33 @@
         "title": "MERN Stack YouTube Clone- WIP",
         "category": "Youtube Web App Clone built with React, Context API",
         "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/YouTube_Logo_2017.svg/768px-YouTube_Logo_2017.svg.png",
-        "url": "https://github.com/sreechu/Youtube_Clone_Basic"
+        "url": "https://github.com/sreechu/Youtube_Clone_Basic",
+        "type": "Git"
       },
 
       {
         "title": "MERN Stack Amazon Clone WIP",
         "category": "Amazon Clone built with MERN (Firebase, ReactJS, NodeJS)",
         "image": "../images/amazon-logo-transparent.png",
-        "url": "https://github.com/sreechu/amazon-clone-repo"
+        "url": "https://github.com/sreechu/amazon-clone-repo",
+        "type": "Git"
+      }
+    ],
+    "articles": [
+      {
+        "title": "ReactJS - A beginner's perspective on web based development",
+        "category": "Part-1 of series of introductory articles on this awesome library!",
+        "image": "../images/ReactJS_Article.png",
+        "url": "https://medium.com/articles-on-software-saas/reactjs-a-beginner-friendly-perspective-part-i-f5c588da8626",
+        "type": "Med"
       }
     ]
   },
   "testimonials": {
     "testimonials": [
       {
-        "text": "Recent Testimonial: Hey sree. It was an absolute pleasure working with you and watching you grow during your internship. I know you didn't get to do a lot of application development or GQL work but you made significant contributions to the platform that were highly critical to our success. Your go getting attitude, thirst for knowledge, and optimism will get you super far in your career.",
-        "user": "JonDavid Ebadirad"
+        "text": "Recent Testimonial: Hey Sree. It was an absolute pleasure working with you and watching you grow during your internship. I know you didn't get to do a lot of application development or GQL work but you made significant contributions to the platform that were highly critical to our success. Your go getting attitude, thirst for knowledge, and optimism will get you super far in your career.",
+        "user": "JonDavid Ebadirad, Senior Software Engineer @Formidable"
       }
     ]
   }
