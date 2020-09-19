@@ -5,6 +5,7 @@ class Header extends Component {
   render() {
     if (this.props.data) {
       var name = this.props.data.name;
+      var profilepic = "images/" + this.props.data.image;
       var occupation = this.props.data.occupation;
       var description = this.props.data.description;
       var city = this.props.data.address.city;
@@ -76,6 +77,11 @@ class Header extends Component {
             </Typist>
             <hr />
             <hr />
+            <img
+              className="profile-pic"
+              src={profilepic}
+              alt="Sreecharan profile pic"
+            />
             <hr />
             <ul className="social">{networks}</ul>
           </div>

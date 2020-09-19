@@ -35,7 +35,7 @@ header {
   height: 800px;
   min-height: 500px;
   width: 100%;
-  background: #161415 url(../images/bgd_Sree.gif) no-repeat top center;
+  background: #161415 url(../images/Sree_Bg.gif) no-repeat top center;
   background-size: cover !important;
   -webkit-background-size: cover !important;
   text-align: center;
@@ -142,6 +142,12 @@ header .scrolldown a {
 }
 header .scrolldown a:hover {
   color: #11abb0;
+}
+header .profile-pic {
+  position: relative;
+  width: 120px;
+  height: 120px;
+  border-radius: 100%;
 }
 
 /* primary navigation
