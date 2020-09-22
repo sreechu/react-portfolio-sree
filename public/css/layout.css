@@ -119,6 +119,10 @@ header .social li a:hover {
   color: #11abb0;
   transform: scale(1.2);
 }
+
+header .typed-words {
+  color: #fff;
+}
 /* #11abb0;*/
 /* scrolldown link */
 header .scrolldown a {

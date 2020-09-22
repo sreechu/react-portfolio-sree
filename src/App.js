@@ -9,8 +9,19 @@ import Resume from "./Components/Resume";
 import Contact from "./Components/Contact";
 import Testimonials from "./Components/Testimonials";
 import Portfolio from "./Components/Portfolio";
+import ResumeHTML from "./Components/ResumeHTML";
+import {
+  BrowserRouter as Router,
+  Route,
+  Switch,
+  Redirect,
+} from "react-router-dom";
 
 class App extends Component {
+  try = () => {
+    this.props.history.push("/resume");
+  };
+
   constructor(props) {
     super(props);
     this.state = {
@@ -43,7 +54,8 @@ class App extends Component {
       <div className="App">
         <Header data={this.state.resumeData.main} />
 
-        <About data={this.state.resumeData.main} />
+        <About data={this.state.resumeData.main} routeResume={this.try} />
+        <ResumeHTML />
         <Resume data={this.state.resumeData.resume} />
         <Portfolio data={this.state.resumeData.portfolio} />
         <Testimonials data={this.state.resumeData.testimonials} />
@@ -54,4 +66,11 @@ class App extends Component {
   }
 }
 
-export default App;
+export default () => (
+  <div>
+    <Router>
+      <Route component={App} />
+      <Route path="/resume" component={ResumeHTML} />
+    </Router>
+  </div>
+);

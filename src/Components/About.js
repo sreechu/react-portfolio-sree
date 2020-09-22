@@ -12,7 +12,9 @@ class About extends Component {
       var zip = this.props.data.address.zip;
       var phone = this.props.data.phone;
       var email = this.props.data.email;
-      var resumeDownload = this.props.data.resumedownload;
+    }
+    if (this.props.routeResume) {
+      var pushRoute = this.props.routeResume;
     }
 
     return (
@@ -44,7 +46,7 @@ class About extends Component {
               </div>
               <div className="columns download">
                 <p>
-                  <a href={resumeDownload} className="button">
+                  <a onClick={pushRoute} className="button">
                     <i className="fa fa-download"></i>View Resume
                   </a>
                 </p>

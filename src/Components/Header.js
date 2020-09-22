@@ -78,8 +78,8 @@ class Header extends Component {
             />
 
             <hr />
-            <Typist>
-              I like to Solve Problems and Be Creative about it 💻
+            <Typist className="typed-words">
+              i like to solve problems creatively 💻
             </Typist>
 
             <hr />

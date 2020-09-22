@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+export default `<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
@@ -156,3 +156,4 @@
     <script src="TestHtml_files/bootstrap.js"></script>
   </body>
 </html>
+`;
