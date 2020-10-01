@@ -1,11 +1,11 @@
 {
   "main": {
-    "name": "",
+    "name": "Sree Charan",
     "occupation": "Graduate Student studying Information Sciences",
     "description": " #wannaGoFullStack Engineer, Salesforce.com Developer & Consultant",
     "image": "DPSree.png",
     "aboutMe": "sree_about.jpg",
-    "bio": "Hey! Call me Sree, I'm a Salesforce consultant turned aspiring Full Stack developer. I am currently building two full-stack hobbyist projects. Please check them in my Works",
+    "bio": "Hey! Call me Sree, I'm a prior Salesforce developer currently aspiring to become a Full Stack developer. I am currently building two full-stack hobbyist projects based on ReactJS. Please check them below",
     "contactmessage": "Get in touch with me to receive further details or just have a conversation on ReactJS or anything else :)",
     "email": "srees@email.arizona.edu",
     "phone": "+1 520 406 5530",
@@ -41,7 +41,7 @@
     ]
   },
   "resume": {
-    "skillmessage": "Here you can create a short write-up of your skills to show off to employers",
+    "skillmessage": "I like to tinker with new technologies and my interest in them is more than ever. Building skills in JavaScript, React, Firebase and ApolloGQL",
     "image": "UOfA.png",
     "workimage": {
       "solera": "SOLERA_Logos__203-133.png",
@@ -85,32 +85,38 @@
     "skills": [
       {
         "name": "Apex",
-        "level": "90%"
+        "level": "High",
+        "image": "salesforce.png",
+        "description": "A Salesforce on-demand, Object Oriented, server-side language that I spend lot of my time with as I was developing custom applications for clients. This taught me basics of OOPS and made me comfortable to learn new languages without intimidation :) "
       },
       {
         "name": "Lightning Web Components",
-        "level": "60%"
+        "level": "Medium",
+        "image": "lwc.png",
+        "description": "Brief encounter with the public component-based framework volunteered to work with a friend for a Golf sales/services client."
       },
       {
         "name": "ReactJS",
-        "level": "50%"
+        "image": "react.png",
+        "level": "Medium%",
+        "description": "I am fairly new to React and really did not like it at first. It has grown on me though and I will continue to use it going forward."
       },
       {
         "name": "CSS",
-        "level": "70%"
+        "image": "css.png",
+        "level": "Medium%"
       },
       {
         "name": "Git",
-        "level": "50%"
-      },
-      {
-        "name": "HTML5",
-        "level": "80%"
+        "image": "git.jpg",
+        "level": "Medium%"
       },
       {
         "name": "Apollo GQL",
-        "level": "40%"
-      }
+        "image": "apollogql.png",
+        "level": "Medium%"
+      },
+      { "image": "firebase.png", "name": "Google Firebase" }
     ]
   },
   "portfolio": {
@@ -128,6 +134,13 @@
         "category": "Amazon Clone built with MERN (Firebase, ReactJS, NodeJS)",
         "image": "../images/amazon-logo-transparent.png",
         "url": "https://github.com/sreechu/amazon-clone-repo",
+        "type": "Git"
+      },
+      {
+        "title": "To-Do App",
+        "category": "Basic To-do list with React",
+        "image": "../images/todo.jpg",
+        "url": "https://dreamy-mcclintock-0235fc.netlify.app/",
         "type": "Git"
       }
     ],

@@ -359,23 +359,26 @@ ul#nav li.current a {
   list-style: none;
 }
 .bars li {
+  width: 50%;
   position: relative;
   margin-bottom: 60px;
   background: #ccc;
-  height: 42px;
+  height: 24px;
   border-radius: 3px;
 }
 .bars li em {
+  width: 50%;
   font: 15px "opensans-bold", sans-serif;
   color: #313131;
   text-transform: uppercase;
   letter-spacing: 2px;
   font-weight: normal;
   position: relative;
-  top: -36px;
+  top: -43px;
 }
 .bar-expand {
   position: absolute;
+  text-transform: uppercase;
   left: 0;
   top: 0;
 

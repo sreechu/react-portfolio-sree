@@ -21,7 +21,7 @@ class About extends Component {
       <section id="about">
         <div className="row">
           <div className="three columns">
-            <img className="pic" src={profilepic} alt="Tim Baker Profile Pic" />
+            <img className="pic" src={profilepic} alt="Sreechu Pic" />
           </div>
           <div className="nine columns main-col">
             <h2>About Me</h2>
@@ -46,8 +46,8 @@ class About extends Component {
               </div>
               <div className="columns download">
                 <p>
-                  <a onClick={pushRoute} className="button">
-                    <i className="fa fa-download"></i>View Resume
+                  <a className="button" target="_blank">
+                    <i className="fa fa-download"></i>Download Resume
                   </a>
                 </p>
               </div>

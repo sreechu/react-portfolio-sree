@@ -10,6 +10,7 @@ import Contact from "./Components/Contact";
 import Testimonials from "./Components/Testimonials";
 import Portfolio from "./Components/Portfolio";
 import ResumeHTML from "./Components/ResumeHTML";
+import References from "./Components/References";
 import {
   BrowserRouter as Router,
   Route,
@@ -59,6 +60,8 @@ class App extends Component {
         <Resume data={this.state.resumeData.resume} />
         <Portfolio data={this.state.resumeData.portfolio} />
         <Testimonials data={this.state.resumeData.testimonials} />
+        {/* Might add References component here or another page  */}
+        <References />
         <Contact data={this.state.resumeData.main} />
         <Footer data={this.state.resumeData.main} />
       </div>
