@@ -99,7 +99,7 @@
         "name": "ReactJS",
         "image": "react.png",
         "level": "Medium%",
-        "description": "I am fairly new to React and really did not like it at first. It has grown on me though and I will continue to use it going forward."
+        "description": "I am fairly new to React and it continues to grow on me. Am Currently wrapping my mind on the Redux boiler plate code for simple applications"
       },
       {
         "name": "CSS",
@@ -116,7 +116,7 @@
         "image": "apollogql.png",
         "level": "Medium%"
       },
-      { "image": "firebase.png", "name": "Google Firebase" }
+      { "name": "Google Firebase", "image": "firebase.png", "level": "Low" }
     ]
   },
   "portfolio": {
@@ -141,6 +141,13 @@
         "category": "Basic To-do list with React",
         "image": "../images/todo.jpg",
         "url": "https://dreamy-mcclintock-0235fc.netlify.app/",
+        "type": "Git"
+      },
+      {
+        "title": "Simple Songs App to get Redux basics",
+        "category": "Song Selector with Redux",
+        "image": "../images/songSimple.png",
+        "url": "https://stupefied-euler-0f6cd2.netlify.app/",
         "type": "Git"
       }
     ],
