@@ -52,28 +52,28 @@ class App extends Component {
 
   render() {
     return (
-      <div className="App">
-        <Header data={this.state.resumeData.main} />
+      <Router>
+        <div className="App">
+          <Switch>
+            <Route path="/resume" component={ResumeHTML} />
 
-        <About data={this.state.resumeData.main} routeResume={this.try} />
-        <ResumeHTML />
-        <Resume data={this.state.resumeData.resume} />
-        <Portfolio data={this.state.resumeData.portfolio} />
-        <Testimonials data={this.state.resumeData.testimonials} />
-        {/* Might add References component here or another page  */}
-        <References />
-        <Contact data={this.state.resumeData.main} />
-        <Footer data={this.state.resumeData.main} />
-      </div>
+            <Route path="/">
+              <Header data={this.state.resumeData.main} />
+
+              <About data={this.state.resumeData.main} routeResume={this.try} />
+
+              <Resume data={this.state.resumeData.resume} />
+              <Portfolio data={this.state.resumeData.portfolio} />
+              <Testimonials data={this.state.resumeData.testimonials} />
+              {/* Might add References component here or another page  */}
+              <References />
+              <Contact data={this.state.resumeData.main} />
+              <Footer data={this.state.resumeData.main} />
+            </Route>
+          </Switch>
+        </div>
+      </Router>
     );
   }
 }
-
-export default () => (
-  <div>
-    <Router>
-      <Route component={App} />
-      <Route path="/resume" component={ResumeHTML} />
-    </Router>
-  </div>
-);
+export default App;

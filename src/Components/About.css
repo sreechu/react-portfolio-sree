@@ -1,0 +1,43 @@
+/*body {
+  margin: 0;
+  padding: 0;
+  background: #172442;
+
+  &:before {
+    content: "";
+    position: absolute;
+    z-index: 1;
+    background: linear-gradient(0deg, #191842, transparent 95%);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 320px;
+    height: 400px;
+    box-shadow: -5px 35px 30px -20px rgba(0, 0, 0, 0.5);
+  }
+
+  &:after {
+    position: absolute;
+    z-index: 2;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    letter-spacing: 1.4em;
+    margin: 0 0 0 0.6em;
+    text-transform: uppercase;
+    content: "BREATHE";
+    color: violet;
+    mix-blend-mode: lighten;
+    font-size: 12px;
+    font-family: serif;
+    opacity: 0.8;
+  }
+}
+
+canvas {
+  position: relative;
+  z-index: 2;
+  background: transparent;
+}
+*/
