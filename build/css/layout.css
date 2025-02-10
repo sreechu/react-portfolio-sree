@@ -35,11 +35,24 @@ header {
   height: 800px;
   min-height: 500px;
   width: 100%;
-  background: #161415 url(../images/header-background.gif) no-repeat top center;
+  background: #161415 url(../images/Sree_Bg.gif) no-repeat top center;
   background-size: cover !important;
   -webkit-background-size: cover !important;
   text-align: center;
   overflow: hidden;
+  opacity: 0.8;
+  filter: alpha(opacity=80); /* For IE 8 & 9 (more valid) */
+}
+
+header:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 10rem;
+  background-image: linear-gradient(to bottom, transparent, #2b2b2b);
+  z-index: -1;
 }
 
 /* vertically center banner section */
@@ -97,14 +110,16 @@ header .social li {
   display: inline-block;
   margin: 0 15px;
   padding: 0;
+  transition: all 0.5s ease-in-out;
 }
 header .social li a {
   color: #fff;
 }
 header .social li a:hover {
   color: #11abb0;
+  transform: scale(1.2);
 }
-
+/* #11abb0;*/
 /* scrolldown link */
 header .scrolldown a {
   position: absolute;
@@ -127,6 +142,12 @@ header .scrolldown a {
 }
 header .scrolldown a:hover {
   color: #11abb0;
+}
+header .profile-pic {
+  position: relative;
+  width: 140px;
+  height: 160px;
+  border-radius: 100%;
 }
 
 /* primary navigation
@@ -231,8 +252,8 @@ ul#nav li.current a {
 }
 #about .profile-pic {
   position: relative;
-  width: 200px;
-  height: 130px;
+  width: 120px;
+  height: 120px;
   border-radius: 100%;
 }
 #about .contact-details {
@@ -309,7 +330,6 @@ ul#nav li.current a {
   color: #6e7881;
   margin-bottom: 18px;
   margin-top: 9px;
-  padding-top: 10px;
 }
 #resume .info span {
   margin-right: 5px;
@@ -479,8 +499,6 @@ ul#nav li.current a {
   margin-bottom: 36px;
 }
 .portfolio-item .item-wrap {
-  background: #fff;
-
   overflow: hidden;
   position: relative;
 
@@ -540,6 +558,7 @@ ul#nav li.current a {
 }
 .portfolio-item .item-wrap img {
   vertical-align: bottom;
+  min-height: 80px;
 }
 .portfolio-item .portfolio-item-meta {
   padding: 18px;
@@ -903,7 +922,7 @@ call-to-action .button {
 }
 
 #contact h1 {
-  font: 18px/24px "opensans-bold", sans-serif;
+  font: 18px/24px "opensans", sans-serif;
   text-transform: uppercase;
   letter-spacing: 3px;
   color: #ebeeee;

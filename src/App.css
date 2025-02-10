@@ -1,0 +1,18 @@
+.skill-icons {
+  max-width: 60px;
+}
+.skill-icons:hover {
+  -webkit-transform: scale(1.5, 1.5);
+  -moz-transform: scale(1.5, 1.5);
+  -o-transform: scale(1.5, 1.5);
+  transform: scale(1.5, 1.5);
+  -webkit-transition: all 0.2s linear;
+  -moz-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+button {
+  border: none;
+  background: none;
+  cursor: pointer;
+}

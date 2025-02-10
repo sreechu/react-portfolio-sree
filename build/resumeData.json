@@ -1,20 +1,26 @@
 {
   "main": {
-    "name": "Sree Charan Shatdarsanam",
+    "name": "",
     "occupation": "Graduate Student studying Information Sciences",
-    "description": "I am also a #wannaBeDeveloper and a Salesforce.com Developer and Consultant",
+    "description": " #wannaGoFullStack Engineer, Salesforce.com Developer & Consultant",
+    "image": "DPSree.png",
+    "aboutMe": "sree_about.jpg",
+    "bio": "Hey! Call me Sree, I'm a Salesforce consultant turned aspiring Full Stack developer. I am currently building two full-stack hobbyist projects. Please check them in my Works",
+    "name": "Sree Charan Shatdarsanam",
+    "occupation": "I am Salesforce.com Developer and Consultant",
+    "description": "Education : Graduate in Information Sciences",
     "image": "grandcanyonSree.jpeg",
-    "bio": "My name is Sree Charan (Call me Sree), I'm a budding Full Stack ReactJS Developer. Currently I'm volunteering as a Salesforce developer and doing two full-stack projects",
+    "bio": "Technology Consultant, Developer with 9 years of combined firm experience in Deloitte Salesforce practice mainly in LSHC and TMT domains. Skilled in Salesforce declarative configuration and custom development (Apex, Aura, LWC) to address complex client challenges. Experienced onshore Consultant, Senior Developer, and Deployment Support resource for Sales Cloud and Community Cloud projects.  Adept at Agile frameworks, ensuring efficient delivery, collaboration, and iterative improvement across multiple client engagements. Driven to expand Salesforce design expertise and leverage no-code solutions to streamline implementations and optimize client outcomes.",
     "contactmessage": "Get in touch with me to receive further details or just have a conversation on ReactJS or anything else :)",
-    "email": "srees@email.arizona.edu",
+    "email": "sreechu3691@gmail.com",
     "phone": "+1 520 406 5530",
     "address": {
-      "street": "1010 E Mabel St",
-      "city": "Tucson",
-      "state": "AZ",
-      "zip": "USA 85719"
+      "street": "",
+      "city": "",
+      "state": "",
+      "zip": ""
     },
-    "website": "WIP",
+    "website": "https://sreecharan-shatdarsanam.me",
     "resumedownload": "WIP",
     "social": [
       {
@@ -54,8 +60,7 @@
         "graduated": "December 2020",
         "description": {
           "gpa": "3.7",
-          "position1": "Graduate Assistant at Marketing Dept",
-          "position2": "Member of Tableau User Group Steering Committee"
+          "positions": "Graduate Assistant at Marketing Department | Member of Tableau User Group Steering Committee"
         }
       }
     ],
@@ -72,14 +77,14 @@
         "company": "Standav Corp, Texas",
         "title": "Pre-Sales Intern",
         "years": "June 2019 - Nov 2019",
-        "description": "Performed competitive analysis, researched trends on various pricing solutions and designed capability maps. Had constant interaction with the Solutions head, Prepared Pre-Sales content on Pricing solutions & Strategy, ERP Data prep. Increased awareness about factors that influence software sales!"
+        "description": "Performed competitive analysis, researched trends on various pricing solutions and designed capability maps. Had constant interaction with the Solutions head, Prepared Pre-Sales content on Pricing solutions, Marketing Strategy and ERP Data pre-prep. Continuing to develop more awareness about KPIs that influence software sales!"
       },
       {
         "compkey": "dd",
         "company": "Deloitte Digital, India",
         "title": "Senior Salesforce Developer and Consultant",
         "years": "August 2013 - August 2018",
-        "description": "Digital Knowledge Sharing Contributor (1200 outreach on the floor) for few topics. Had a cool mix of experience in Salesforce development and administration, CRM Tech-Consulting. Co-Lead of a Teaching based initiative for two years"
+        "description": "Digital Knowledge Sharing Contributor (1200 outreach on the floor) for few topics. Developed a cool mix of experience in Salesforce development and administration, CRM Tech-Consulting. Co-Lead a firm sponsored CSR Teaching initiative for two years"
       }
     ],
     "skills": [
@@ -119,22 +124,33 @@
         "title": "MERN Stack YouTube Clone- WIP",
         "category": "Youtube Web App Clone built with React, Context API",
         "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/YouTube_Logo_2017.svg/768px-YouTube_Logo_2017.svg.png",
-        "url": "https://github.com/sreechu/Youtube_Clone_Basic"
+        "url": "https://github.com/sreechu/Youtube_Clone_Basic",
+        "type": "Git"
       },
 
       {
         "title": "MERN Stack Amazon Clone WIP",
         "category": "Amazon Clone built with MERN (Firebase, ReactJS, NodeJS)",
-        "image": "https://1000logos.net/wp-content/uploads/2019/07/Amazon-logo-2000%E2%80%93present.jpg",
-        "url": "https://github.com/sreechu/amazon-clone-repo"
+        "image": "../images/amazon-logo-transparent.png",
+        "url": "https://github.com/sreechu/amazon-clone-repo",
+        "type": "Git"
+      }
+    ],
+    "articles": [
+      {
+        "title": "ReactJS - A beginner's perspective on web based development",
+        "category": "Part-1 of series of introductory articles on this awesome library!",
+        "image": "../images/ReactJS_Article.png",
+        "url": "https://medium.com/articles-on-software-saas/reactjs-a-beginner-friendly-perspective-part-i-f5c588da8626",
+        "type": "Med"
       }
     ]
   },
   "testimonials": {
     "testimonials": [
       {
-        "text": "Recent Testimonial: Hey sree. It was an absolute pleasure working with you and watching you grow during your internship. I know you didn't get to do a lot of application development or GQL work but you made significant contributions to the platform that were highly critical to our success. Your go getting attitude, thirst for knowledge, and optimism will get you super far in your career.",
-        "user": "JonDavid Ebadirad"
+        "text": "Recent Testimonial: Hey Sree. It was an absolute pleasure working with you and watching you grow during your internship. I know you didn't get to do a lot of application development or GQL work but you made significant contributions to the platform that were highly critical to our success. Your go getting attitude, thirst for knowledge, and optimism will get you super far in your career.",
+        "user": "JonDavid Ebadirad, Senior Software Engineer @Formidable"
       }
     ]
   }

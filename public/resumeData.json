@@ -1,0 +1,172 @@
+{
+  "main": {
+    "name": "Sree Charan",
+    "occupation": "Graduate Student studying Information Sciences",
+    "description": " #wannaGoFullStack Engineer, Salesforce.com Developer & Consultant",
+    "image": "DPSree.png",
+    "aboutMe": "sree_about.jpg",
+    "bio": "Hey! Call me Sree, I'm a prior Salesforce developer currently aspiring to become a Full Stack developer. I am currently building two full-stack hobbyist projects based on ReactJS. Please check them below",
+    "contactmessage": "Get in touch with me to receive further details or just have a conversation on ReactJS or anything else :)",
+    "email": "srees@email.arizona.edu",
+    "phone": "+1 520 406 5530",
+    "address": {
+      "street": "1010 E Mabel St",
+      "city": "Tucson",
+      "state": "AZ",
+      "zip": "USA 85719"
+    },
+    "website": "WIP",
+    "resumedownload": "../../SreeResumeStatic/SreeCharan-SoftwareDeveloper.html",
+    "social": [
+      {
+        "name": "facebook",
+        "url": "https://www.facebook.com/sreecharans/",
+        "className": "fa fa-facebook"
+      },
+      {
+        "url": "https://www.linkedin.com/in/sreecharanshatdarsanam/",
+        "name": "linkedin",
+        "className": "fa fa-linkedin"
+      },
+      {
+        "name": "instagram",
+        "url": "https://www.instagram.com/sreechu/",
+        "className": "fa fa-instagram"
+      },
+      {
+        "name": "github",
+        "url": "https://github.com/sreechu",
+        "className": "fa fa-github"
+      }
+    ]
+  },
+  "resume": {
+    "skillmessage": "I like to tinker with new technologies and my interest in them is more than ever. Building skills in JavaScript, React, Firebase and ApolloGQL",
+    "image": "UOfA.png",
+    "workimage": {
+      "solera": "SOLERA_Logos__203-133.png",
+      "standav": "standav-logo.png",
+      "dd": "DD-logo.png"
+    },
+    "education": [
+      {
+        "school": "University of Arizona",
+        "degree": "Masters in Managed Information Systems",
+        "graduated": "December 2020",
+        "description": {
+          "gpa": "3.7",
+          "positions": "Graduate Assistant at Marketing Department | Member of Tableau User Group Steering Committee"
+        }
+      }
+    ],
+    "work": [
+      {
+        "compkey": "solera",
+        "company": "Solera Health",
+        "title": "Software Engineering Intern",
+        "years": "June 2020 - August 2020",
+        "description": "Developed custom wrappers for platform’s reusable UI library-base by leveraging Google Material-UI, ReactJS. Led the initiative of converting platform’s icon-base to a reusable node package for efficient maintenance and upgrades. Leveraged Azure DevOps to document and fine-grain value-added user stories related to platform's user interface"
+      },
+      {
+        "compkey": "standav",
+        "company": "Standav Corp, Texas",
+        "title": "Pre-Sales Intern",
+        "years": "June 2019 - Nov 2019",
+        "description": "Performed competitive analysis, researched trends on various pricing solutions and designed capability maps. Had constant interaction with the Solutions head, Prepared Pre-Sales content on Pricing solutions & Strategy, ERP Data prep. Increased awareness about factors that influence software sales!"
+      },
+      {
+        "compkey": "dd",
+        "company": "Deloitte Digital, India",
+        "title": "Senior Salesforce Developer and Consultant",
+        "years": "August 2013 - August 2018",
+        "description": "Digital Knowledge Sharing Contributor (1200 outreach on the floor) for few topics. Had a cool mix of experience in Salesforce development and administration, CRM Tech-Consulting. Co-Lead of a Teaching based initiative for two years"
+      }
+    ],
+    "skills": [
+      {
+        "name": "Apex",
+        "level": "High",
+        "image": "salesforce.png",
+        "description": "A Salesforce on-demand, Object Oriented, server-side language that I spend lot of my time with as I was developing custom applications for clients. This taught me basics of OOPS and made me comfortable to learn new languages without intimidation :) "
+      },
+      {
+        "name": "Lightning Web Components",
+        "level": "Medium",
+        "image": "lwc.png",
+        "description": "Brief encounter with the public component-based framework volunteered to work with a friend for a Golf sales/services client."
+      },
+      {
+        "name": "ReactJS",
+        "image": "react.png",
+        "level": "Medium%",
+        "description": "I am fairly new to React and it continues to grow on me. Am Currently wrapping my mind on the Redux boiler plate code for simple applications"
+      },
+      {
+        "name": "CSS",
+        "image": "css.png",
+        "level": "Medium%"
+      },
+      {
+        "name": "Git",
+        "image": "git.jpg",
+        "level": "Medium%"
+      },
+      {
+        "name": "Apollo GQL",
+        "image": "apollogql.png",
+        "level": "Medium%"
+      },
+      { "name": "Google Firebase", "image": "firebase.png", "level": "Low" }
+    ]
+  },
+  "portfolio": {
+    "projects": [
+      {
+        "title": "MERN Stack YouTube Clone- WIP",
+        "category": "Youtube Web App Clone built with React, Context API",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/YouTube_Logo_2017.svg/768px-YouTube_Logo_2017.svg.png",
+        "url": "https://github.com/sreechu/Youtube_Clone_Basic",
+        "type": "Git"
+      },
+
+      {
+        "title": "MERN Stack Amazon Clone WIP",
+        "category": "Amazon Clone built with MERN (Firebase, ReactJS, NodeJS)",
+        "image": "../images/amazon-logo-transparent.png",
+        "url": "https://amazon-clonebasic-sree.netlify.app/",
+        "type": "Git"
+      },
+      {
+        "title": "To-Do App",
+        "category": "Basic To-do list with React",
+        "image": "../images/todo.jpg",
+        "url": "https://dreamy-mcclintock-0235fc.netlify.app/",
+        "type": "Git"
+      },
+      {
+        "title": "Simple Songs App to get Redux basics",
+        "category": "Song Selector with Redux",
+        "image": "../images/songSimple.png",
+        "url": "https://stupefied-euler-0f6cd2.netlify.app/",
+        "type": "Git"
+      }
+    ],
+    "articles": [
+      {
+        "title": "ReactJS - A beginner's perspective on web based development",
+        "category": "Part-1 of series of introductory articles on this awesome library!",
+        "image": "../images/ReactJS_Article.png",
+        "url": "https://medium.com/articles-on-software-saas/reactjs-a-beginner-friendly-perspective-part-i-f5c588da8626",
+        "type": "Med"
+      }
+    ]
+  },
+  "testimonials": {
+    "testimonials": [
+      {
+        "text": "Recent Testimonial: Hey Sree. It was an absolute pleasure working with you and watching you grow during your internship. I know you didn't get to do a lot of application development or GQL work but you made significant contributions to the platform that were highly critical to our success. Your go getting attitude, thirst for knowledge, and optimism will get you super far in your career.",
+        "user": "JonDavid Ebadirad, Senior Software Engineer @Formidable"
+      }
+    ]
+  }
+}

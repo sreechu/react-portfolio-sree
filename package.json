@@ -1,0 +1,46 @@
+{
+  "name": "personalportfolio",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "jquery": "^3.5.1",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-ga": "^3.1.2",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "3.4.3",
+    "react-typist": "^2.0.5"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "set \"CI=false\" && react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "webpack": "webpack",
+    "webpack-dev-server": "webpack-dev-server"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "description": "![ReactJS Resume Website Template](resume-screenshot.png?raw=true \"ReactJS Resume Website Template\")",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sreechu/react-portfolio-sree.git"
+  },
+  "author": "sreecharan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sreechu/react-portfolio-sree/issues"
+  },
+  "homepage": "https://github.com/sreechu/react-portfolio-sree#readme"
+}
