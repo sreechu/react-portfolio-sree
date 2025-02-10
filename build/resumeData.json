@@ -6,17 +6,22 @@
     "image": "DPSree.png",
     "aboutMe": "sree_about.jpg",
     "bio": "Hey! Call me Sree, I'm a Salesforce consultant turned aspiring Full Stack developer. I am currently building two full-stack hobbyist projects. Please check them in my Works",
+    "name": "Sree Charan Shatdarsanam",
+    "occupation": "I am Salesforce.com Developer and Consultant",
+    "description": "Education : Graduate in Information Sciences",
+    "image": "grandcanyonSree.jpeg",
+    "bio": "Technology Consultant, Developer with 9 years of combined firm experience in Deloitte Salesforce practice mainly in LSHC and TMT domains. Skilled in Salesforce declarative configuration and custom development (Apex, Aura, LWC) to address complex client challenges. Experienced onshore Consultant, Senior Developer, and Deployment Support resource for Sales Cloud and Community Cloud projects.  Adept at Agile frameworks, ensuring efficient delivery, collaboration, and iterative improvement across multiple client engagements. Driven to expand Salesforce design expertise and leverage no-code solutions to streamline implementations and optimize client outcomes.",
     "contactmessage": "Get in touch with me to receive further details or just have a conversation on ReactJS or anything else :)",
-    "email": "srees@email.arizona.edu",
+    "email": "sreechu3691@gmail.com",
     "phone": "+1 520 406 5530",
     "address": {
-      "street": "1010 E Mabel St",
-      "city": "Tucson",
-      "state": "AZ",
-      "zip": "USA 85719"
+      "street": "",
+      "city": "",
+      "state": "",
+      "zip": ""
     },
-    "website": "WIP",
-    "resumedownload": "../../SreeResumeStatic/SreeCharan-SoftwareDeveloper.html",
+    "website": "https://sreecharan-shatdarsanam.me",
+    "resumedownload": "WIP",
     "social": [
       {
         "name": "facebook",
