@@ -1,27 +1,22 @@
 {
   "main": {
-    "name": "",
+    "name": "Sree Charan",
     "occupation": "Graduate Student studying Information Sciences",
-    "description": " #wannaGoFullStack Engineer, Salesforce.com Developer & Consultant",
+    "description": "Salesforce.com Developer & Consultant",
     "image": "DPSree.png",
     "aboutMe": "sree_about.jpg",
-    "bio": "Hey! Call me Sree, I'm a Salesforce consultant turned aspiring Full Stack developer. I am currently building two full-stack hobbyist projects. Please check them in my Works",
-    "name": "Sree Charan Shatdarsanam",
-    "occupation": "I am Salesforce.com Developer and Consultant",
-    "description": "Education : Graduate in Information Sciences",
-    "image": "grandcanyonSree.jpeg",
-    "bio": "Technology Consultant, Developer with 9 years of combined firm experience in Deloitte Salesforce practice mainly in LSHC and TMT domains. Skilled in Salesforce declarative configuration and custom development (Apex, Aura, LWC) to address complex client challenges. Experienced onshore Consultant, Senior Developer, and Deployment Support resource for Sales Cloud and Community Cloud projects.  Adept at Agile frameworks, ensuring efficient delivery, collaboration, and iterative improvement across multiple client engagements. Driven to expand Salesforce design expertise and leverage no-code solutions to streamline implementations and optimize client outcomes.",
+    "bio": "Hey! Call me Sree, I'm a prior Salesforce developer currently aspiring to become a Full Stack developer. I am currently building two full-stack hobbyist projects based on ReactJS. Please check them below",
     "contactmessage": "Get in touch with me to receive further details or just have a conversation on ReactJS or anything else :)",
-    "email": "sreechu3691@gmail.com",
+    "email": "srees@email.arizona.edu",
     "phone": "+1 520 406 5530",
     "address": {
-      "street": "",
-      "city": "",
-      "state": "",
-      "zip": ""
+      "street": "1010 E Mabel St",
+      "city": "Tucson",
+      "state": "AZ",
+      "zip": "USA 85719"
     },
-    "website": "https://sreecharan-shatdarsanam.me",
-    "resumedownload": "WIP",
+    "website": "WIP",
+    "resumedownload": "../../SreeResumeStatic/SreeCharan-SoftwareDeveloper.html",
     "social": [
       {
         "name": "facebook",
@@ -46,7 +41,7 @@
     ]
   },
   "resume": {
-    "skillmessage": "Here you can create a short write-up of your skills to show off to employers",
+    "skillmessage": "I like to tinker with new technologies and my interest in them is more than ever. Building skills in JavaScript, React, Firebase and ApolloGQL",
     "image": "UOfA.png",
     "workimage": {
       "solera": "SOLERA_Logos__203-133.png",
@@ -77,45 +72,51 @@
         "company": "Standav Corp, Texas",
         "title": "Pre-Sales Intern",
         "years": "June 2019 - Nov 2019",
-        "description": "Performed competitive analysis, researched trends on various pricing solutions and designed capability maps. Had constant interaction with the Solutions head, Prepared Pre-Sales content on Pricing solutions, Marketing Strategy and ERP Data pre-prep. Continuing to develop more awareness about KPIs that influence software sales!"
+        "description": "Performed competitive analysis, researched trends on various pricing solutions and designed capability maps. Had constant interaction with the Solutions head, Prepared Pre-Sales content on Pricing solutions & Strategy, ERP Data prep. Increased awareness about factors that influence software sales!"
       },
       {
         "compkey": "dd",
         "company": "Deloitte Digital, India",
         "title": "Senior Salesforce Developer and Consultant",
         "years": "August 2013 - August 2018",
-        "description": "Digital Knowledge Sharing Contributor (1200 outreach on the floor) for few topics. Developed a cool mix of experience in Salesforce development and administration, CRM Tech-Consulting. Co-Lead a firm sponsored CSR Teaching initiative for two years"
+        "description": "Digital Knowledge Sharing Contributor (1200 outreach on the floor) for few topics. Had a cool mix of experience in Salesforce development and administration, CRM Tech-Consulting. Co-Lead of a Teaching based initiative for two years"
       }
     ],
     "skills": [
       {
         "name": "Apex",
-        "level": "90%"
+        "level": "High",
+        "image": "salesforce.png",
+        "description": "A Salesforce on-demand, Object Oriented, server-side language that I spend lot of my time with as I was developing custom applications for clients. This taught me basics of OOPS and made me comfortable to learn new languages without intimidation :) "
       },
       {
         "name": "Lightning Web Components",
-        "level": "60%"
+        "level": "Medium",
+        "image": "lwc.png",
+        "description": "Brief encounter with the public component-based framework volunteered to work with a friend for a Golf sales/services client."
       },
       {
         "name": "ReactJS",
-        "level": "50%"
+        "image": "react.png",
+        "level": "Medium%",
+        "description": "I am fairly new to React and it continues to grow on me. Am Currently wrapping my mind on the Redux boiler plate code for simple applications"
       },
       {
         "name": "CSS",
-        "level": "70%"
+        "image": "css.png",
+        "level": "Medium%"
       },
       {
         "name": "Git",
-        "level": "50%"
-      },
-      {
-        "name": "HTML5",
-        "level": "80%"
+        "image": "git.jpg",
+        "level": "Medium%"
       },
       {
         "name": "Apollo GQL",
-        "level": "40%"
-      }
+        "image": "apollogql.png",
+        "level": "Medium%"
+      },
+      { "name": "Google Firebase", "image": "firebase.png", "level": "Low" }
     ]
   },
   "portfolio": {
@@ -132,7 +133,21 @@
         "title": "MERN Stack Amazon Clone WIP",
         "category": "Amazon Clone built with MERN (Firebase, ReactJS, NodeJS)",
         "image": "../images/amazon-logo-transparent.png",
-        "url": "https://github.com/sreechu/amazon-clone-repo",
+        "url": "https://amazon-clonebasic-sree.netlify.app/",
+        "type": "Git"
+      },
+      {
+        "title": "To-Do App",
+        "category": "Basic To-do list with React",
+        "image": "../images/todo.jpg",
+        "url": "https://dreamy-mcclintock-0235fc.netlify.app/",
+        "type": "Git"
+      },
+      {
+        "title": "Simple Songs App to get Redux basics",
+        "category": "Song Selector with Redux",
+        "image": "../images/songSimple.png",
+        "url": "https://stupefied-euler-0f6cd2.netlify.app/",
         "type": "Git"
       }
     ],
