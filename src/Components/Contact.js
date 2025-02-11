@@ -37,7 +37,7 @@ const Contact = ({ data }) => {
          <div className="row">
             <div className="eight columns">
 
-               <form id="contactForm" name="contactForm">
+               <form id="contactForm" name="contactForm" netlify>
 					<fieldset>
 
                   <div>
