@@ -10,10 +10,10 @@
     "email": "srees@email.arizona.edu",
     "phone": "+1 520 406 5530",
     "address": {
-      "street": "1010 E Mabel St",
-      "city": "Tucson",
-      "state": "AZ",
-      "zip": "USA 85719"
+      "street": "",
+      "city": "Austin, TX",
+      "state": "TX",
+      "zip": "USA 78653"
     },
     "website": "WIP",
     "resumedownload": "../../SreeResumeStatic/SreeCharan-SoftwareDeveloper.html",
