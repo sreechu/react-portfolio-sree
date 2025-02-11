@@ -1,8 +1,9 @@
 {
   "main": {
     "name": "Sree Charan",
-    "occupation": "Graduate Student studying Information Sciences",
-    "description": " #wannaGoFullStack Engineer, Salesforce.com Developer & Consultant",
+    "occupation": "Experienced Tech Consultant at Deloitte Digital",
+    "description": "Salesforce.com Developer & Consultant",
+
     "image": "DPSree.png",
     "aboutMe": "sree_about.jpg",
     "bio": "Hey! Call me Sree, I'm a prior Salesforce developer currently aspiring to become a Full Stack developer. I am currently building two full-stack hobbyist projects based on ReactJS. Please check them below",
@@ -10,10 +11,10 @@
     "email": "srees@email.arizona.edu",
     "phone": "+1 520 406 5530",
     "address": {
-      "street": "1010 E Mabel St",
-      "city": "Tucson",
-      "state": "AZ",
-      "zip": "USA 85719"
+      "street": "",
+      "city": "Austin, TX",
+      "state": "TX",
+      "zip": "USA 78653"
     },
     "website": "WIP",
     "resumedownload": "../../SreeResumeStatic/SreeCharan-SoftwareDeveloper.html",
