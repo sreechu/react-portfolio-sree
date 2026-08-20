@@ -1,46 +1,47 @@
 {
   "name": "personalportfolio",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "private": true,
-  "dependencies": {
-    "jquery": "^3.5.1",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1",
-    "react-ga": "^3.1.2",
-    "react-router-dom": "^5.2.0",
-    "react-scripts": "3.4.3",
-    "react-typist": "^2.0.5"
+  "type": "module",
+  "description": "SreeCharan personal portfolio website",
+  "author": "sreecharan",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sreechu/react-portfolio-sree.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sreechu/react-portfolio-sree/issues"
+  },
+  "engines": {
+    "node": ">=22"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "set \"CI=false\" && react-scripts build",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject",
-    "webpack": "webpack",
-    "webpack-dev-server": "webpack-dev-server"
+    "start": "vite",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "dependencies": {
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "react-router-dom": "^7.9.1"
+  },
+  "devDependencies": {
+    "@testing-library/react": "^16.3.0",
+    "@vitejs/plugin-react": "^5.0.4",
+    "jsdom": "^27.0.0",
+    "vite": "^7.1.7",
+    "vitest": "^3.2.4"
   },
   "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
+    "production": [">0.2%", "not dead", "not op_mini all"],
     "development": [
       "last 1 chrome version",
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "description": "![ReactJS Resume Website Template](resume-screenshot.png?raw=true \"ReactJS Resume Website Template\")",
-  "main": "index.js",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/sreechu/react-portfolio-sree.git"
-  },
-  "author": "sreecharan",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/sreechu/react-portfolio-sree/issues"
-  },
-  "homepage": "https://github.com/sreechu/react-portfolio-sree#readme"
+  }
 }
