@@ -1,0 +1,20 @@
+.Typist .Cursor {
+  display: inline-block;
+  opacity: 1;
+}
+
+.Typist .Cursor--blinking {
+  animation: TypistCursorBlink 1s step-start infinite;
+}
+
+@keyframes TypistCursorBlink {
+  50% {
+    opacity: 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .Typist .Cursor--blinking {
+    animation: none;
+  }
+}
